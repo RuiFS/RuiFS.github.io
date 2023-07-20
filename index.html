@@ -26,33 +26,51 @@
 							<p class="major">A showcase of my projects and my abilities. Here I collect, process, analyse and present data - from supporting everyday business decisions to driving global change.
 								In the first phase this portfolio will contain 3 projects and the difficulty will increase from the first to the last and also Data Cleaning projects
 							</a>.</p>
-							<ul class="actions stacked">
-								<li><a href="#first" class="button big wide smooth-scroll-middle">Projects</a></li>
-							</ul>
-							<ul class="actions stacked">
-								<li><a href="#Fourth" class="button big wide smooth-scroll-middle">Data Cleaning</a></li>
-							</ul>
+							<div style="display: flex; justify-content: flex-start;">
+								<ul class="actions stacked">
+									<li><a href="#first" class="button big wide smooth-scroll-middle">Projects</a></li>
+								</ul>
+								<ul class="actions stacked">
+									<li><a href="#second" class="button big wide smooth-scroll-middle">Data Cleaning</a></li>
+								</ul>
+							</div>
 						</div>
 						<div class="image">
 							<img src="images/imgBanner.jpg" alt="" />
 						</div>
-					</section>	
+					</section>
 
+				<!-- Projects -->
+				<section class="wrapper style1">
+					<div class="inner" style="text-align: center;">
+					<h2>PROJECTS</h2>
+				</div>
+				</section>
+				
 				<!-- Two -->
 				<section class="spotlight style1 orient-right content-align-left image-position-center onscroll-image-fade-in custom-class" id="first">
-										<div class="content">
-							<h2>Health Care Systems</h2>
-							<p>In this project, I delved into the realm of healthcare systems and costs, focusing on both government and personal expenses. By utilizing data from the World Development Indicators (WDI) and the Nuclear Threat Initiative (NTI). 
-								Through rigorous data extraction, statistical analysis, and visualization techniques, I uncovered intriguing patterns and disparities. The project highlighted variations in government spending on healthcare across countries, while also exploring the implications of personal expenditure on individuals. This data-driven exploration deepened my knowledge of healthcare financing and demonstrated the power of insights to shape policy decisions in the ever-evolving healthcare landscape.  </p>
-							<ul class="actions stacked">
-								<li><a href="https://app.powerbi.com/view?r=eyJrIjoiZWU2NGNjYmUtMjdhZi00ZWM2LWEzODItMzU5OGFmZDE5NDA2IiwidCI6IjVmMzA5NmYyLWE3MTUtNDQxOC1hYjQwLTkxZDYzZTQzMGJkMyIsImMiOjl9" class="button">Dashboard</a></li>
-								<li><a href="https://github.com/RuiFS/Project_1_Health-Systems/blob/main/Queries.sql" class="button">Queries</a></li>
-							</ul>
+					<div class="content">
+						<h2>Health Care Systems</h2>
+						<p>In this project, I delved into the realm of healthcare systems and costs, focusing on both government and personal expenses. By utilizing data from the World Development Indicators (WDI) and the Nuclear Threat Initiative (NTI). 
+							Through rigorous data extraction, statistical analysis, and visualization techniques, I uncovered intriguing patterns and disparities. The project highlighted variations in government spending on healthcare across countries, while also exploring the implications of personal expenditure on individuals. This data-driven exploration deepened my knowledge of healthcare financing and demonstrated the power of insights to shape policy decisions in the ever-evolving healthcare landscape.  </p>
+						<div style="display: flex; justify-content: left;">
+							<div style="margin-right: 10px;">
+								<a href="https://app.powerbi.com/view?r=eyJrIjoiZWU2NGNjYmUtMjdhZi00ZWM2LWEzODItMzU5OGFmZDE5NDA2IiwidCI6IjVmMzA5NmYyLWE3MTUtNDQxOC1hYjQwLTkxZDYzZTQzMGJkMyIsImMiOjl9" class="button">Dashboard</a>
+							</div>
+							<div>
+								<a href="https://github.com/RuiFS/Project_1_Health-Systems/blob/main/Queries.sql" class="button">Queries</a>
+							</div>
 						</div>
-						<div class="image">
-							<img src="images/imgProject1.jpg" alt="" />
-						</div>
-					</section>
+					</div>
+					<div class="image">
+						<img src="images/imgProject1.jpg" alt="" />
+					</div>
+				</section>
+
+
+
+
+
 
 				<!-- Three 
 					<section class="spotlight style1 orient-left content-align-left image-position-center onscroll-image-fade-in">
@@ -83,24 +101,50 @@
 							<img src="images/spotlight03.jpg" alt="" />
 						</div>
 					</section>
+				
+				<!-- Data Cleaning Section -->
+					<section class="wrapper style1">
+   					 <div class="inner" style="text-align: center;">
+        				<h2>DATA CLEANING</h2>
+    				</div>
+					</section>
+	
 
-				<!-- Data Cleaning p1 --> 
-					<section class="spotlight style1 orient-left content-align-left image-position-center onscroll-image-fade-in">
+				<!-- Data Cleaning 1 --> 
+				<div style="display: flex;">
+					<section class="spotlight style1 orient-left content-align-center" style="display: flex; flex-direction: column;" id="second">
 						<div class="content">
-							<h2>Data Cleaning</h2>
+							<h2>Food survey</h2>
 							<p>In this data cleaning project, I worked with the Food Coded dataset obtained from Kaggle. Using MySQL, I performed 
 								various cleaning tasks to prepare the dataset for analysis. This project demonstrated my proficiency 
 								in data cleaning techniques, SQL query execution, and preparing datasets for further analysis.</p>
 							<ul class="actions stacked">
-								<li><a href="https://github.com/RuiFS/DATA_CLEANING/blob/main/Food" class="button">Queries</a></li>
+								<li><a href="https://github.com/RuiFS/DATA_CLEANING/blob/main/Food%20(SQL)" class="button">Queries</a></li>
 								<!--<li><a href="#" class="button">Queries</a></li>--> 
 							</ul>
 						</div>
 						<div class="image">
-							<img src="images/food.jpg" alt="" />
+							<img src="images/food.jpg" alt="" style="max-width: 50%; margin: 0 auto;"/>
 						</div>
 					</section>					
 				
+				<!-- Data Cleaning 2 --> 
+				<section class="spotlight style1 orient-right content-align-center" style="display: flex; flex-direction: column;">
+					<div class="content">
+						<h2>Government Contracts</h2>
+						<p>In this data cleaning project, I worked with the Portuguese Government Contracts dataset from the Base.gov repository. Using MySQL,
+							I efficiently cleaned and prepared the dataset for analysis, demonstrating my expertise in data cleaning techniques, 
+							SQL query execution, and data preparation for further analysis.</p>
+						<ul class="actions stacked">
+							<li><a href="https://github.com/RuiFS/DATA_CLEANING/blob/main/Contratos%20(SQL)" class="button">Queries</a></li>
+							<!--<li><a href="#" class="button">Queries</a></li>--> 
+						</ul>
+					</div>
+					<div class="image">
+						<img src="images/construction.jpg" alt="" style="max-width: 50%; margin: 0 auto;"/>
+					</div>
+				</section>	
+				</div>	
 				<!-- About Me -->
 				<section class="wrapper style1">
 					<div class="inner">
